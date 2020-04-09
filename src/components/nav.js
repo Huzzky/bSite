@@ -5,12 +5,33 @@ import videohead from './videos/video.mp4';
 class NAV extends React.Component {
     constructor (props) {
         super(props);
-
         this.state = {
-            
+            scroolY:0
+        };
+    }
+    scrollSite(y){ //Функция для считывания Скрулла
+        if(y < 0){
+            this.setState(prevState => {
+                return {
+                    scroolY: prevState.scroolY + 1
+                }
+            });
+            console.log('slide up', this.state.scroolY);
+        } else {
+            this.setState(prevState => {
+                return {
+                    scroolY: prevState.scroolY - 1
+                }
+            });
+            console.log('slide down', this.state.scroolY);
         }
     }
-
+    
+    componentWillMount(){
+        window.addEventListener('wheel', (e) => {
+            this.scrollSite(e.wheelDelta);
+        })
+    }
 render(){
     return(
         <div className="nav-div">
