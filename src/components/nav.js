@@ -21,15 +21,21 @@ render(){
             </div>
             <div className="h1-div">
                 <div className="dop-div">
-                <ul className="ul-li">
-                    <li className="nav-txt logo-txt">Scenic</li>
-                    <li className="nav-txt r-nav">HELP</li>
-                    <li className="nav-txt r-nav">STUDIO</li>
-                    <li className="nav-txt r-nav">OUR PEOPLE</li>
-                    <li className="nav-txt r-nav">LET'S TALK</li>
-                </ul>
+                    <ul className="ul-li">
+                        <li className="nav-txt logo-txt">Scenic</li>
+                        <li className="nav-txt r-nav">HOME</li>
+                        <li className="nav-txt r-nav">STUDIO</li>
+                        <li className="nav-txt r-nav">OUR PEOPLE</li>
+                        <li className="nav-txt r-nav">LET'S TALK</li>
+                    </ul>
                 </div>
             </div>
+                <div className="h1-p-btn">
+                    <h1 className="h1-header">Lorem ipsum dolor sit amet, consectetur!</h1>
+                    <p className="p-header">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam laoreet quam.</p>
+                    <button className="btn-header">Discover More</button>
+                </div>
+            
         </div>
     );
 }}
