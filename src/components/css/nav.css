@@ -1,9 +1,44 @@
+.h1-div {
+    font-family: 'Segoe UI';
+    font-size: 15px;
+    color:white;
+    text-align: center;
+    position: sticky;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+.logo-txt {
+    padding-right: 17%;
+    font-weight: 600;
+}
+.dop-div {
+    position: fixed;
+    width: 100%;
+}
+.ul-li li {
+    display: inline-block;
+    list-style-type: none;
+    list-style: none;
+    padding-top: 0.1%;
+    margin-right: 3.6%;
+}
+.nav-txt{
+    margin-top: 1%;
+}
+
+.nav-txt:first-child{
+    float: left;
+    font-size: 24px;
+}
 .video-header {
     top: 50%;
     width: 100%;
     transform: translate(-50%, -50%);
-    opacity: 0.5;
+    /* opacity: 0.5; */
     left: 50%;
     z-index: 0;
     position: absolute;
 }
+
+

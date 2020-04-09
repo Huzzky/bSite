@@ -19,16 +19,17 @@ render(){
                     <source src={videohead}></source>
                 </video>
             </div>
-            <nav>
-                <ul>
-                    <li className="nav-txt">Scenic</li>
-                    <li className="nav-txt">HOME</li>
-                    <li className="nav-txt">STUDIO</li>
-                    <li className="nav-txt">OUR PEOPLE</li>
-                    <li className="nav-txt">LET'S TALK</li>
+            <div className="h1-div">
+                <div className="dop-div">
+                <ul className="ul-li">
+                    <li className="nav-txt logo-txt">Scenic</li>
+                    <li className="nav-txt r-nav">HELP</li>
+                    <li className="nav-txt r-nav">STUDIO</li>
+                    <li className="nav-txt r-nav">OUR PEOPLE</li>
+                    <li className="nav-txt r-nav">LET'S TALK</li>
                 </ul>
-            </nav>
-
+                </div>
+            </div>
         </div>
     );
 }}
