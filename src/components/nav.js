@@ -6,27 +6,47 @@ class NAV extends React.Component {
     constructor (props) {
         super(props);
         this.state = {
-            scroolY:0
-        };
-    }
+            classNameDiv:'dop-div',
+            scroolmy:0
+
+        }}
     scrollSite(y){ //Функция для считывания Скрулла
-        if(y < 0){
-            this.setState(prevState => {
-                return {
-                    scroolY: prevState.scroolY + 1
-                }
-            });
-            console.log('slide up', this.state.scroolY);
-        } else {
-            this.setState(prevState => {
-                return {
-                    scroolY: prevState.scroolY - 1
-                }
-            });
-            console.log('slide down', this.state.scroolY);
+        // this.setState(prevState => {
+        //     return {
+        //         scroolmy: prevState+=100
+        //     }
+        // })
+        // if (y<0 && this.state.scroolmy<12){
+        //     this.state.scroolmy++;
+        //     this.setState({classNameDiv:"dop-div"});
+        // }
+        // else if (y>0){
+        //     if (this.state.scroolmy===0){
+        //         this.setState({classNameDiv:"dop-div"});
+        //     }
+        //     else{this.state.scroolmy--;}
+        // }
+        // console.log(this.state.scroolmy);
+
+        if (window.scrollY<100) {
+            this.setState({classNameDiv:'dop-div'});
+            console.log(1, window.scrollY);
+        } else if (window.scrollY > 100) {
+            this.setState({classNameDiv:'dop-div-2'});
+            console.log(2, window.scrollY);
         }
+
+
+        // if (y>100) {
+        //     this.setState({classNameDiv:'dop-div-2'});
+        //     console.log(this.state.scroolmy);
+        // }
+        // else if (y<100) {
+        //     this.setState({classNameDiv:"dop-div"});
+        //     console.log(this.scroolmy);
+        // }
     }
-    
+
     componentWillMount(){
         window.addEventListener('wheel', (e) => {
             this.scrollSite(e.wheelDelta);
@@ -34,6 +54,7 @@ class NAV extends React.Component {
     }
 render(){
     return(
+        
         <div className="nav-div">
             <div className="div-vid">
                 <video autoPlay loop muted className="video-header">
@@ -41,7 +62,7 @@ render(){
                 </video>
             </div>
             <div className="h1-div">
-                <div className="dop-div">
+                <div className={this.state.classNameDiv}>
                     <ul className="ul-li">
                         <li className="nav-txt logo-txt">Scenic</li>
                         <li className="nav-txt r-nav">HOME</li>
