@@ -27,7 +27,6 @@ class NAV extends React.Component {
     }
 render(){
     return(
-        
         <div className="nav-div">
             <div className="div-vid">
                 <video autoPlay loop muted className="video-header">
@@ -50,6 +49,7 @@ render(){
                     <p className="p-header">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam laoreet quam.</p>
                     <button className="btn-header">Discover More</button>
                 </div>
+                <div className="black-fon"></div>
             
         </div>
     );
