@@ -19,16 +19,26 @@
     margin-left: 27%;
     margin-right: 27%;
 }
-
+.fon-black {
+    background-color: black;
+    overflow: hidden;
+}
 .img-div figure {
     margin:0;
     position: relative;
 }
 
-.img-div figcaption {
+.img-div .fig-1 {
     position: absolute;
     top:0;
     padding-top: 50px;
+    color: white;
+    font-size: 24px;
+}
+.img-div .fig-2 {
+    position: absolute;
+    top:0;
+    padding-top: 10px;
     color: white;
     font-size: 24px;
 }
@@ -36,10 +46,19 @@
 .cs-style-1 figure:hover figcaption,
 .cs-style-1 figure.cs-hover figcaption {
 	opacity: 1;
-    transform: translate(0em, 0.6em);
-    
+    transform: translate(0em, 0.6em);  
 }
-.cs-style-1 figcaption {
+.cs-style-1 .fig-1 {
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	text-align: center;
+    backface-visibility: hidden;
+    margin-top: 1.5em;
+    margin-left: 0.5em;
+	transition: transform 0.3s, opacity 0.3s;
+}
+.cs-style-1 .fig-2 {
 	height: 100%;
 	width: 100%;
 	opacity: 0;

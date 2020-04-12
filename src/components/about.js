@@ -18,26 +18,27 @@ class About extends React.Component {
                     <figure>
                         <img src={fimageabout} alt="Первая картинка" className="img-about fr"/>
                         <figcaption className="fig-1">
-                            <h3 className="about-img">The Best Pianists in the Books</h3>
+                            <h3 className="about-img">The Best Books</h3>
                             {/* <a href="#" onClick=""></a> */}
                         </figcaption>
+                        <div className="fon-black"></div>
                     </figure>
                     <figure>
                         <img src={simageabout} alt="Вторая картинка" className="img-about fr"/>
-                        <figcaption>
-                        <h3 className="about-img">The Best Pianists in the Books</h3>
+                        <figcaption className="fig-1">
+                        <h3 className="about-img">The Best Books</h3>
                         </figcaption>
                     </figure>
                     <figure>
                         <img src={timageabout} alt="Третья картинка" className="img-about sr"/>
-                        <figcaption>
-                        <h3 className="about-img">The Best Pianists in the Books</h3>
+                        <figcaption className="fig-2">
+                        <h3 className="about-img">The Best Books</h3>
                         </figcaption>
                     </figure>
                     <figure>
                         <img src={foimageabout} alt="Четвертая картинка" className="img-about sr"/>
-                        <figcaption>
-                        <h3 className="about-img">The Best Pianists in the Books</h3>
+                        <figcaption className="fig-2">
+                        <h3 className="about-img">The Best Books</h3>
                         </figcaption>
                     </figure>
                 </div>
