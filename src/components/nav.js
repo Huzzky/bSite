@@ -36,7 +36,7 @@ render(){
             <div className="h1-div">
                 <div className={this.state.classNameDiv}>
                     <ul className="ul-li">
-                        <li className="nav-txt logo-txt">Scenic</li>
+                        <li className="nav-txt logo-txt">BookScience</li>
                         <li className="nav-txt r-nav">HOME</li>
                         <li className="nav-txt r-nav">STUDIO</li>
                         <li className="nav-txt r-nav">OUR PEOPLE</li>

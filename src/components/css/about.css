@@ -19,12 +19,57 @@
     margin-left: 27%;
     margin-right: 27%;
 }
+
+.img-div figure {
+    margin:0;
+    position: relative;
+}
+
+.img-div figcaption {
+    position: absolute;
+    top:0;
+    padding-top: 50px;
+    color: white;
+    font-size: 24px;
+}
+
+.cs-style-1 figure:hover figcaption,
+.cs-style-1 figure.cs-hover figcaption {
+	opacity: 1;
+    transform: translate(0em, 0.6em);
+    
+}
+.cs-style-1 figcaption {
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	text-align: center;
+    backface-visibility: hidden;
+    margin-top: 1.5em;
+    margin-left: 0.5em;
+	transition: transform 0.3s, opacity 0.3s;
+}
 .img-div{
     display: flex;
-    flex-flow: column wrap;
-
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 100%;
+    margin-left: 150px;
+    margin-right: 150px;;
 }
 .img-about {
-    width: 30%;
-    height: 30%;
+    width: 550px;
+    height: 400px;
+}
+.sr {
+    margin-top: 1.5em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+}
+.fr {
+    margin-top:5em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
 }
