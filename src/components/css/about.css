@@ -19,3 +19,12 @@
     margin-left: 27%;
     margin-right: 27%;
 }
+.img-div{
+    display: flex;
+    flex-flow: column wrap;
+
+}
+.img-about {
+    width: 30%;
+    height: 30%;
+}

@@ -1,5 +1,9 @@
 import React from 'react';
 import './css/about.css';
+import fimageabout from './images/1-image-about.jpg';
+import simageabout from './images/2-image-about.jpg';
+import timageabout from './images/3-image-about.jpg';
+import foimageabout from './images/4-image-about.png';
 
 class About extends React.Component {
     render () {
@@ -10,11 +14,11 @@ class About extends React.Component {
                     <h1 className="txt-h1-abt">This template is designed for you. Sed ornare, tortor nec placerat lacinia, leo quam rutrum leo,
                     eget posuere ipsum sem eu justo. Integer nunc libero</h1>
                 </div>
-                <div>
-                    <img src="" alt="" className=""/>
-                    <img src="" alt="" className=""/>
-                    <img src="" alt="" className=""/>
-                    <img src="" alt="" className=""/>
+                <div className='img-div'>
+                    <img src={fimageabout} alt="Первая картинка" className="img-about"/>
+                    <img src={simageabout} alt="Вторая картинка" className="img-about"/>
+                    <img src={timageabout} alt="Третья картинка" className="img-about"/>
+                    <img src={foimageabout} alt="Четвертая картинка" className="img-about"/>
                 </div>
             </div>
         );
