@@ -19,9 +19,26 @@
     margin-left: 27%;
     margin-right: 27%;
 }
+h3 {
+    background-color: rgba(0,0,0,0.35);
+    margin-right:0.85em;
+    padding-top: 1em;
+    margin-top: 0em;
+    padding-bottom: 1.7em;
+}
 .fon-black {
     background-color: black;
-    overflow: hidden;
+    padding-bottom: 12em;
+    margin-top: -0.9em;
+    margin-right: 1em;
+    opacity: 0.35;
+}
+.fon-black-2 {
+    background-color: black;
+    padding-bottom: 12em;
+    margin-top: -1.5em;
+    margin-right: 1em;
+    opacity: 0.35;
 }
 .img-div figure {
     margin:0;
@@ -44,7 +61,8 @@
 }
 
 .cs-style-1 figure:hover figcaption,
-.cs-style-1 figure.cs-hover figcaption {
+.cs-style-1 figure.cs-hover figcaption,
+.cs-style-1 figure.cs-hover .fon-black {
 	opacity: 1;
     transform: translate(0em, 0.6em);  
 }
@@ -56,7 +74,8 @@
     backface-visibility: hidden;
     margin-top: 1.5em;
     margin-left: 0.5em;
-	transition: transform 0.3s, opacity 0.3s;
+    transition: transform 0.3s, opacity 0.3s;
+
 }
 .cs-style-1 .fig-2 {
 	height: 100%;
