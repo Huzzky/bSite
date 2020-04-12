@@ -19,43 +19,57 @@
     margin-left: 27%;
     margin-right: 27%;
 }
-h3 {
+.first-h3 {
     background-color: rgba(0,0,0,0.35);
-    margin-right:0.85em;
+    margin-right:0em;
+    margin-right: 0em;
     padding-top: 1em;
     margin-top: 0em;
+    margin-bottom: 0em;
     padding-bottom: 1.7em;
+}
+.second-h3 {
+    background-color: rgba(0,0,0,0.35);
+    margin-right:0em;
+    margin-right: 0em;
+    padding-top: 1em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    padding-bottom: 2.1em;
 }
 .fon-black {
     background-color: black;
     padding-bottom: 12em;
-    margin-top: -0.9em;
-    margin-right: 1em;
+    margin-top: 0em;
+    margin-right: 0em;
     opacity: 0.35;
 }
 .fon-black-2 {
     background-color: black;
-    padding-bottom: 12em;
-    margin-top: -1.5em;
-    margin-right: 1em;
+    padding-bottom: 11.5em;
+    margin-top: 0em;
+    margin-right: 0em;
     opacity: 0.35;
 }
 .img-div figure {
-    margin:0;
+    /* margin:0; */
     position: relative;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 0em;
+    margin-top: 0;
 }
 
 .img-div .fig-1 {
     position: absolute;
     top:0;
-    padding-top: 50px;
     color: white;
     font-size: 24px;
+
 }
 .img-div .fig-2 {
     position: absolute;
     top:0;
-    padding-top: 10px;
     color: white;
     font-size: 24px;
 }
@@ -64,7 +78,7 @@ h3 {
 .cs-style-1 figure.cs-hover figcaption,
 .cs-style-1 figure.cs-hover .fon-black {
 	opacity: 1;
-    transform: translate(0em, 0.6em);  
+    transform: translate(0em, 0em);  
 }
 .cs-style-1 .fig-1 {
 	height: 100%;
@@ -72,8 +86,6 @@ h3 {
 	opacity: 0;
 	text-align: center;
     backface-visibility: hidden;
-    margin-top: 1.5em;
-    margin-left: 0.5em;
     transition: transform 0.3s, opacity 0.3s;
 
 }
@@ -83,9 +95,7 @@ h3 {
 	opacity: 0;
 	text-align: center;
     backface-visibility: hidden;
-    margin-top: 1.5em;
-    margin-left: 0.5em;
-	transition: transform 0.3s, opacity 0.3s;
+    transition: transform 0.3s, opacity 0.3s;
 }
 .img-div{
     display: flex;
@@ -102,12 +112,12 @@ h3 {
     height: 400px;
 }
 .sr {
-    margin-top: 1.5em;
+    padding-top: 1.5em;
     padding-left: 0.75em;
     padding-right: 0.75em;
 }
 .fr {
-    margin-top:5em;
+    padding-top:5em;
     padding-left: 0.75em;
     padding-right: 0.75em;
 }
