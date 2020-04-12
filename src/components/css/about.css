@@ -12,9 +12,10 @@
 .txt-h5-abt {
     letter-spacing: 0.9em;
 }
-.txt-h2-abt {
+.txt-h1-abt {
+    padding-top: 0.1%;
     font-weight: 300;
-    font-size: 35px;
-    margin-left: 25%;
-    margin-right: 25%;
+    font-size: 36px;
+    margin-left: 27%;
+    margin-right: 27%;
 }

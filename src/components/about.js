@@ -7,8 +7,8 @@ class About extends React.Component {
             <div className='About-all'>
                 <div className="txt-abt">
                     <h5 className="txt-h5-abt">INTRODUCING SCENIC</h5>
-                    <h2 className="txt-h2-abt">This template is designed for you. Sed ornare, tortor nec placerat lacinia, leo quam rutrum leo,
-                    eget posuere ipsum sem eu justo. Integer nunc libero</h2>
+                    <h1 className="txt-h1-abt">This template is designed for you. Sed ornare, tortor nec placerat lacinia, leo quam rutrum leo,
+                    eget posuere ipsum sem eu justo. Integer nunc libero</h1>
                 </div>
                 <div>
                     <img src="" alt="" className=""/>
