@@ -5,9 +5,10 @@ class About extends React.Component {
     render () {
         return (
             <div className='About-all'>
-                <div>
-                    <h5>INTRODUCING SCENIC</h5>
-                    <h2>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</h2>
+                <div className="txt-abt">
+                    <h5 className="txt-h5-abt">INTRODUCING SCENIC</h5>
+                    <h2 className="txt-h2-abt">This template is designed for you. Sed ornare, tortor nec placerat lacinia, leo quam rutrum leo,
+                    eget posuere ipsum sem eu justo. Integer nunc libero</h2>
                 </div>
                 <div>
                     <img src="" alt="" className=""/>

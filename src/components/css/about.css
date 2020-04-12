@@ -2,4 +2,19 @@
     background-color: white;
     color: black;
     text-align: center;
+    padding-bottom: 500px;
+}
+
+.txt-abt {
+    padding-top: 7%;
+}
+
+.txt-h5-abt {
+    letter-spacing: 0.9em;
+}
+.txt-h2-abt {
+    font-weight: 300;
+    font-size: 35px;
+    margin-left: 25%;
+    margin-right: 25%;
 }
