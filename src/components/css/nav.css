@@ -10,7 +10,25 @@
     position: sticky;
     z-index: 10;
 }
+.a-nav {
+    line-height: 1;
+    cursor: pointer;
+    color:white;
+    text-decoration: none;
+}
 
+.a-nav::after {
+    display: block;
+    content: "";
+    height: 1px;
+    width: 100%;
+    background-color: white;
+    transition: width .3s ease-in-out;
+}
+.a-nav:hover:after,
+.a-nav:focus:after {
+    width: 100%;
+}
 .dop-div {
     position: fixed;
     width: 100%;

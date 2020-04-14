@@ -78,8 +78,12 @@
 .cs-style-1 figure.cs-hover figcaption,
 .cs-style-1 figure.cs-hover .fon-black {
 	opacity: 1;
-    transform: translate(0em, 0em);  
+    transform: translate(0em, 0em); 
 }
+
+/* .cs-style-1 figure:hover .img-about {
+    transform: scale(1.2);
+} */
 .cs-style-1 .fig-1 {
 	height: 100%;
 	width: 100%;
@@ -110,6 +114,7 @@
 .img-about {
     width: 550px;
     height: 400px;
+    
 }
 .sr {
     padding-top: 1.5em;
