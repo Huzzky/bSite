@@ -36,11 +36,11 @@ render(){
             <div className="h1-div">
                 <div className={this.state.classNameDiv}>
                     <ul className="ul-li">
-                        <li className="nav-txt logo-txt"><a className="a-nav" href="1">BookScience</a></li>
-                        <li className="nav-txt r-nav"><a className="a-nav" href="1">HOME</a></li>
-                        <li className="nav-txt r-nav"><a className="a-nav" href="1">STUDIO</a></li>
-                        <li className="nav-txt r-nav"><a className="a-nav" href="1">OUR PEOPLE</a></li>
-                        <li className="nav-txt r-nav"><a className="a-nav" href="1">LET'S TALK</a></li>
+                        <li className="nav-txt logo-txt">BookScience</li>
+                        <li className="nav-txt r-nav">HOME</li>
+                        <li className="nav-txt r-nav">STUDIO</li>
+                        <li className="nav-txt r-nav">OUR PEOPLE</li>
+                        <li className="nav-txt r-nav">LET'S TALK</li>
                     </ul>
                 </div>
             </div>
