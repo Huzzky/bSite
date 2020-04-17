@@ -39,24 +39,26 @@
 }
 .fon-black {
     background-color: black;
-    padding-bottom: 12em;
+    padding-bottom: 12.15em;
     margin-top: 0em;
     margin-right: 0em;
     opacity: 0.35;
+    transition: .4s ease-in-out;
 }
 .fon-black-2 {
     background-color: black;
-    padding-bottom: 11.5em;
+    padding-bottom: 11.65em;
     margin-top: 0em;
     margin-right: 0em;
     opacity: 0.35;
+    transition: .4s ease-in-out;
 }
 .img-div figure {
     /* margin:0; */
     position: relative;
     margin-right: 0;
     margin-left: 0;
-    margin-bottom: 0em;
+    margin-bottom: 0;
     margin-top: 0;
 }
 
@@ -77,8 +79,17 @@
 .cs-style-1 figure:hover figcaption,
 .cs-style-1 figure.cs-hover figcaption,
 .cs-style-1 figure.cs-hover .fon-black {
-	opacity: 1;
-    transform: translate(0em, 0em);  
+    opacity: 1;
+    transform: translate(0em, 0em); 
+    transition: .4s ease-in-out;
+}
+.img-trans {
+    overflow: hidden;
+}
+.cs-style-1 figure:hover .img-about{
+    transform: scale(1.1);;
+    transition: .4s ease-in-out;
+    font-size: 0;
 }
 .cs-style-1 .fig-1 {
 	height: 100%;
@@ -107,10 +118,13 @@
     margin-left: 150px;
     margin-right: 150px;;
 }
+
 .img-about {
     width: 550px;
     height: 400px;
+    transition: .4s ease-in-out;
 }
+
 .sr {
     padding-top: 1.5em;
     padding-left: 0.75em;
@@ -121,3 +135,4 @@
     padding-left: 0.75em;
     padding-right: 0.75em;
 }
+
