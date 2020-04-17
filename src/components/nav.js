@@ -10,13 +10,12 @@ class NAV extends React.Component {
 
         }}
     scrollSite(y){ //Функция для считывания Скрулла
-
         if (window.scrollY<100) {
             this.setState({classNameDiv:'dop-div'});
-            console.log(1, window.scrollY);
+            // console.log(1, window.scrollY);
         } else {
             this.setState({classNameDiv:'dop-div-2'});
-            console.log(2, window.scrollY);
+            // console.log(2, window.scrollY);
         }
     }
 
