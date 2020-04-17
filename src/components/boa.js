@@ -4,8 +4,8 @@ import './css/boa.css';
 class BOA extends React.Component {
     render () {
         return (
-            <div>
-                
+            <div className="boa-all">
+                <h1 className="h1-boa">Best Our Authors</h1>
             </div>
         );
     }
