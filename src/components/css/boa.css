@@ -9,4 +9,11 @@
     font-size: 2.35em;
     padding-bottom: 1.5em;
 }
-
+.img-authors-div {
+    display: flex;
+    flex-direction: row;
+}
+ .img-auth {
+     width: 232px;
+     height: 232px;
+ }

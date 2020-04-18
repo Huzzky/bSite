@@ -14,7 +14,18 @@ class BOA extends React.Component {
                 <div>
                 <h1 className="h1-boa">Best Our Authors</h1></div>
                 <div className="img-authors-div">
-                    
+                    <div>
+                    <img src={auth1} alt="" className="img-auth"/></div>
+                    <div>
+                    <img src={auth2} alt="" className="img-auth"/></div>
+                    <div>
+                    <img src={auth3} alt="" className="img-auth"/></div>
+                    <div>
+                    <img src={auth4} alt="" className="img-auth"/></div>
+                    <div>
+                    <img src={auth5} alt="" className="img-auth"/></div>
+                    <div>
+                    <img src={auth6} alt="" className="img-auth"/></div>
                 </div>
             </div>
         );
