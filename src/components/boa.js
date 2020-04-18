@@ -1,5 +1,11 @@
 import React from 'react';
 import './css/boa.css';
+import auth1 from './images/auth-1.jpg';
+import auth2 from './images/auth-2.jpg';
+import auth3 from './images/auth-3.jpg';
+import auth4 from './images/auth-4.jpg';
+import auth5 from './images/auth-5.jpg';
+import auth6 from './images/auth-6.jpg';
 
 class BOA extends React.Component {
     render () {
@@ -11,7 +17,7 @@ class BOA extends React.Component {
                     <ul className="ul-img-auth">
                         <li className="img-li-auth">
                             <figure>
-                                <img src="" alt="" className="img-auth"/>
+                                <img src={auth1} alt="" className="img-auth"/>
                                     <figcaption>
                                         <li><img src="" alt="" className="icon-auth-sw"/></li>
                                         <li><img src="" alt="" className="icon-auth-sw"/></li>
@@ -20,7 +26,7 @@ class BOA extends React.Component {
                         </li>
                         <li className="img-li-auth">
                             <figure>
-                                <img src="" alt="" className="img-auth"/>
+                                <img src={auth2} alt="" className="img-auth"/>
                                     <figcaption>
                                         <li><img src="" alt="" className="icon-auth-sw"/></li>
                                         <li><img src="" alt="" className="icon-auth-sw"/></li>
@@ -29,7 +35,7 @@ class BOA extends React.Component {
                         </li>
                         <li className="img-li-auth">
                             <figure>
-                                <img src="" alt="" className="img-auth"/>
+                                <img src={auth3} alt="" className="img-auth"/>
                                     <figcaption>
                                         <li><img src="" alt="" className="icon-auth-sw"/></li>
                                         <li><img src="" alt="" className="icon-auth-sw"/></li>
@@ -38,7 +44,7 @@ class BOA extends React.Component {
                         </li>
                         <li className="img-li-auth">
                             <figure>
-                                <img src="" alt="" className="img-auth"/>
+                                <img src={auth4} alt="" className="img-auth"/>
                                     <figcaption>
                                         <li><img src="" alt="" className="icon-auth-sw"/></li>
                                         <li><img src="" alt="" className="icon-auth-sw"/></li>
@@ -47,7 +53,7 @@ class BOA extends React.Component {
                         </li>
                         <li className="img-li-auth">
                             <figure>
-                                <img src="" alt="" className="img-auth"/>
+                                <img src={auth5} alt="" className="img-auth"/>
                                     <figcaption>
                                         <li><img src="" alt="" className="icon-auth-sw"/></li>
                                         <li><img src="" alt="" className="icon-auth-sw"/></li>
@@ -56,16 +62,7 @@ class BOA extends React.Component {
                         </li>
                         <li className="img-li-auth">
                             <figure>
-                                <img src="" alt="" className="img-auth"/>
-                                    <figcaption>
-                                        <li><img src="" alt="" className="icon-auth-sw"/></li>
-                                        <li><img src="" alt="" className="icon-auth-sw"/></li>
-                                    </figcaption>
-                            </figure>
-                        </li>
-                        <li className="img-li-auth">
-                            <figure>
-                                <img src="" alt="" className="img-auth"/>
+                                <img src={auth6} alt="" className="img-auth"/>
                                     <figcaption>
                                         <li><img src="" alt="" className="icon-auth-sw"/></li>
                                         <li><img src="" alt="" className="icon-auth-sw"/></li>
