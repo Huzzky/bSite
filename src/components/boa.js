@@ -16,59 +16,12 @@ class BOA extends React.Component {
                 <div className="img-authors-div">
                     <ul className="ul-img-auth">
                         <li className="img-li-auth">
-                            <figure>
                                 <img src={auth1} alt="" className="img-auth"/>
-                                    <figcaption>
-                                        <li><img src="" alt="" className="icon-auth-sw"/></li>
-                                        <li><img src="" alt="" className="icon-auth-sw"/></li>
-                                    </figcaption>
-                            </figure>
                         </li>
                         <li className="img-li-auth">
-                            <figure>
                                 <img src={auth2} alt="" className="img-auth"/>
-                                    <figcaption>
-                                        <li><img src="" alt="" className="icon-auth-sw"/></li>
-                                        <li><img src="" alt="" className="icon-auth-sw"/></li>
-                                    </figcaption>
-                            </figure>
                         </li>
-                        <li className="img-li-auth">
-                            <figure>
-                                <img src={auth3} alt="" className="img-auth"/>
-                                    <figcaption>
-                                        <li><img src="" alt="" className="icon-auth-sw"/></li>
-                                        <li><img src="" alt="" className="icon-auth-sw"/></li>
-                                    </figcaption>
-                            </figure>
-                        </li>
-                        <li className="img-li-auth">
-                            <figure>
-                                <img src={auth4} alt="" className="img-auth"/>
-                                    <figcaption>
-                                        <li><img src="" alt="" className="icon-auth-sw"/></li>
-                                        <li><img src="" alt="" className="icon-auth-sw"/></li>
-                                    </figcaption>
-                            </figure>
-                        </li>
-                        <li className="img-li-auth">
-                            <figure>
-                                <img src={auth5} alt="" className="img-auth"/>
-                                    <figcaption>
-                                        <li><img src="" alt="" className="icon-auth-sw"/></li>
-                                        <li><img src="" alt="" className="icon-auth-sw"/></li>
-                                    </figcaption>
-                            </figure>
-                        </li>
-                        <li className="img-li-auth">
-                            <figure>
-                                <img src={auth6} alt="" className="img-auth"/>
-                                    <figcaption>
-                                        <li><img src="" alt="" className="icon-auth-sw"/></li>
-                                        <li><img src="" alt="" className="icon-auth-sw"/></li>
-                                    </figcaption>
-                            </figure>
-                        </li>
+                        
                     </ul>
                 </div>
             </div>

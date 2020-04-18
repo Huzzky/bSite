@@ -14,14 +14,12 @@
     padding-left: 0;
 }
 
-li {
-    list-style: none;
+.ul-img-auth li {
     list-style-type: none;
+    list-style: none;
+    display: inline-block;
 }
 
-ul li {
-    display: inline;
-}
 /* .img-authors-div {
     display: flex;
     flex-direction: column;
