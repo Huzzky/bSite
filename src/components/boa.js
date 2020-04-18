@@ -11,21 +11,54 @@ class BOA extends React.Component {
     render () {
         return (
             <div className="boa-all">
-                <div>
+                <div className="div-all-2">
                 <h1 className="h1-boa">Best Our Authors</h1></div>
                 <div className="img-authors-div">
-                    <div>
-                    <img src={auth1} alt="" className="img-auth"/></div>
-                    <div>
-                    <img src={auth2} alt="" className="img-auth"/></div>
-                    <div>
-                    <img src={auth3} alt="" className="img-auth"/></div>
-                    <div>
-                    <img src={auth4} alt="" className="img-auth"/></div>
-                    <div>
-                    <img src={auth5} alt="" className="img-auth"/></div>
-                    <div>
-                    <img src={auth6} alt="" className="img-auth"/></div>
+                    <div className="div-img">
+                        <figure>
+                            <img src={auth1} alt="" className="img-auth"/>
+                            <figcaption>
+                                <h1>FAf FAF</h1>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div className="div-img">
+                        <figure>
+                            <img src={auth2} alt="" className="img-auth"/>
+                            <figcaption>
+                                <h1>FAf FAF</h1>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div className="div-img">
+                        <figure>
+                            <img src={auth3} alt="" className="img-auth"/>
+                            <figcaption>
+                                <h1>FAf FAF</h1>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div className="div-img">
+                        <figure><img src={auth4} alt="" className="img-auth"/>
+                        <figcaption>
+                                <h1>FAf FAF</h1>
+                            </figcaption>
+                        </figure>                   
+                    </div>
+                    <div className="div-img">
+                        <figure><img src={auth5} alt="" className="img-auth"/>
+                        <figcaption>
+                                <h1>FAf FAF</h1>
+                            </figcaption>
+                        </figure>                    
+                    </div>
+                    <div className="div-img">
+                        <figure><img src={auth6} alt="" className="img-auth"/>
+                        <figcaption>
+                                <h1>FAf FAF</h1>
+                            </figcaption>
+                        </figure>                   
+                    </div>
                 </div>
             </div>
         );
