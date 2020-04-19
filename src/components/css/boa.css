@@ -7,8 +7,12 @@
     font-weight: 300;
     background-color: white;
     font-size: 2.35em;
-    padding-bottom: 1.5em;
+    padding-bottom: 1em;
 }
+.img-and-abt{
+    display: flex;
+}
+
 .marker-1 {
     transform: scale(-1,1);
     float: left;
@@ -24,7 +28,7 @@
     font-size: 6em;
     /* padding-bottom: 100%; */
     padding-top:24%;
-    padding-bottom: 24.5%;
+    padding-bottom: 20.5%;
     padding-right: 2.5%;
     padding-left: 2.5%;
     /* margin-top: 20%; */
@@ -54,7 +58,7 @@
 .cs-style-2 figure.cs-hover figcaption{
     opacity: 1;
     transform: translate(0em, 0em); 
-    transition: .4s ease-in-out;
+    transition: .5s ease-in-out;
 }
 .img-authors-div {
     width: 100%;
@@ -70,6 +74,6 @@
 }
 
 .img-auth {
-    width: 1000px;
-    height: 650px;
+    width: 750px;
+    height: 500px;
 }
