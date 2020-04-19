@@ -14,8 +14,8 @@
     padding-right: 150px;
 }
 .img-authors-div {
-    float: left;
-    position: relative;
+    display: inline-block;
+    width: 100%;
     
 }
 .img-auth {
@@ -24,6 +24,7 @@
 
  }
  .div-img {
-    margin: 0em;
+    width: 232px;
+    float: left;
 
  }

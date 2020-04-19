@@ -5,7 +5,6 @@ import auth2 from './images/auth-2.jpg';
 import auth3 from './images/auth-3.jpg';
 import auth4 from './images/auth-4.jpg';
 import auth5 from './images/auth-5.jpg';
-import auth6 from './images/auth-6.jpg';
 
 class BOA extends React.Component {
     render () {
@@ -29,12 +28,6 @@ class BOA extends React.Component {
                     <div className="div-img">
                         <img src={auth5} alt="" className="img-auth"/>                                       
                     </div>
-                    {/* <div className="div-img">
-                        <img src={auth6} alt="" className="img-auth"/>                 
-                    </div>
-                    <div className="div-img">
-                        <img src={auth6} alt="" className="img-auth"/>                                     
-                   </div> */}
                 </div>
                 </div>
             </div>
