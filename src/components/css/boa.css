@@ -12,7 +12,9 @@
 .img-and-abt{
     display: flex;
 }
-
+.about-auth-div{
+    padding-right: 230px;
+}
 .marker-1 {
     transform: scale(-1,1);
     float: left;
@@ -71,6 +73,9 @@
     backface-visibility: hidden;
     transition: transform 0.3s, opacity 0.3s;
 
+}
+.cs-style-2 {
+    padding-left: 40px;
 }
 
 .img-auth {
