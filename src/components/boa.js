@@ -12,7 +12,8 @@ class BOA extends React.Component {
         return (
             <div className="boa-all">
                 <div className="div-all-2">
-                <h1 className="h1-boa">Best Our Authors</h1></div>
+                    <h1 className="h1-boa">Best Our Authors</h1>
+                
                 <div className="img-authors-div">
                     <div className="div-img">                
                             <img src={auth1} alt="" className="img-auth"/>                   
@@ -35,6 +36,7 @@ class BOA extends React.Component {
                     <div className="div-img">
                         <img src={auth6} alt="" className="img-auth"/>                                     
                    </div>
+                </div>
                 </div>
             </div>
         );
