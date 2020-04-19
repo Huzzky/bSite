@@ -9,21 +9,67 @@
     font-size: 2.35em;
     padding-bottom: 1.5em;
 }
-.div-all-2 {
-    padding-left: 190px;
-    padding-right: 150px;
+.marker-1 {
+    transform: scale(-1,1);
+    float: left;
+}
+.marker-2 {
+    float: right;
+
+}
+.mark {
+    background-color: rgba(255,255,255,0.3);
+    border: none;
+    color: black;
+    font-size: 6em;
+    /* padding-bottom: 100%; */
+    padding-top:24%;
+    padding-bottom: 24.5%;
+    padding-right: 2.5%;
+    padding-left: 2.5%;
+    /* margin-top: 20%; */
+    outline: none;
+}
+
+.fig-img {
+    /* margin:0; */
+    position: relative;
+    margin-right: 100px;
+    margin-left: 200px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.img-div .fig-img-1 {
+    position: absolute;
+    top:0;
+    color: white;
+    font-size: 24px;
+
+}
+.img-trans-auth {
+    overflow: hidden;
+    /* margin-left: 100px; */
+}
+.cs-style-2 figure:hover figcaption,
+.cs-style-2 figure.cs-hover figcaption{
+    opacity: 1;
+    transform: translate(0em, 0em); 
+    transition: .4s ease-in-out;
 }
 .img-authors-div {
-    display: inline-block;
     width: 100%;
-    
 }
-.img-auth {
-    width: 232px;
-    height: 232px;
+.cs-style-2 .fig-img-1 {
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	text-align: center;
+    backface-visibility: hidden;
+    transition: transform 0.3s, opacity 0.3s;
 
- }
- .div-img {
-    width: 20%;
-    float: left;
- }
+}
+
+.img-auth {
+    width: 1000px;
+    height: 650px;
+}
