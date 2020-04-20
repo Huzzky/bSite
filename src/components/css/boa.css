@@ -1,3 +1,7 @@
+/* @import "node_modules/react-image-gallery/styles/scss/image-gallery.scss";
+@import "node_modules/react-image-gallery/styles/css/image-gallery.css"; */
+
+
 .boa-all {
     background-color: white;
     padding-top: 5em;
@@ -81,4 +85,11 @@
 .img-auth {
     width: 750px;
     height: 500px;
+}
+
+.abt-auth-h1 {
+    font-size: 3em;
+}
+.abt-auth-p{
+    font-size: 1.45em;
 }
