@@ -11,80 +11,35 @@ import auth4 from './images/auth-4.jpg';
 import auth5 from './images/auth-5.jpg';
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+const images = [
+    {
+      original: auth1,
+      showPlayButton: false
+    },
+    {
+      original: auth2,
+      showPlayButton: false
+    },
+    {
+      original: auth3,
+      showPlayButton: false
+      
+    },
+    {
+        original: auth4,
+        showPlayButton: false
+      },
+      {
+        original: auth5,
+        showPlayButton: false
+      },
+  ];
 
 
 class BOA extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            auth: auth1,
-            count: 1,
-            countimg: 0,
-        };
-        this.clickImgForward = this.clickImgForward.bind(this);
-        this.clickImgBack = this.clickImgBack.bind(this);
-    }
-    clickImgForward() {
-        if (this.state.count===1) {
-            this.setState({auth:auth2, count:2})
-        }
-        else if (this.state.count===2) {
-            this.setState({auth:auth3, count:3})
-        }
-        else if (this.state.count===3) {
-            this.setState({auth:auth4, count:4})
-        }
-        else if (this.state.count===4) {
-            this.setState({auth:auth5, count:5})
-        }
-        else if (this.state.count===5) {
-            this.setState({auth:auth1, count:1})
-        }
-    }
-    clickImgBack() {
-        if (this.state.count===1) {
-            this.setState({auth:auth5, count:5})
-        }
-        else if (this.state.count===5) {
-            this.setState({auth:auth4, count:4})
-        }
-        else if (this.state.count===4) {
-            this.setState({auth:auth3, count:3})
-        }
-        else if (this.state.count===3) {
-            this.setState({auth:auth2, count:2})
-        }
-        else if (this.state.count===2) {
-            this.setState({auth:auth1, count:1})
-        }
-    }
+
     render () {
-        const images = [
-            {
-              original: auth1
-            },
-            {
-              original: auth2
-            },
-            {
-              original: auth3
-              
-            }
-          ]
+        
         return (
             <div className="boa-all">
                 <div className="div-all-2">
