@@ -14,23 +14,28 @@ import auth5 from './images/auth-5.jpg';
 const images = [
     {
       original: auth1,
-      showPlayButton: false
+      thumbnail:auth1,
+      showPlayButton: false,
     },
     {
       original: auth2,
+      thumbnail:auth2,
       showPlayButton: false
     },
     {
       original: auth3,
+      thumbnail:auth3,
       showPlayButton: false
       
     },
     {
         original: auth4,
+        thumbnail:auth4,
         showPlayButton: false
       },
       {
         original: auth5,
+        thumbnail:auth5,
         showPlayButton: false
       },
   ];
@@ -45,17 +50,8 @@ class BOA extends React.Component {
                 <div className="div-all-2">
                     <h1 className="h1-boa">Sic parvis magna</h1>
                     <div className="img-and-abt">   
-                        {/* <div className='img-div cs-style-2'>
-                            <figure className="fig-img">
-                                <div className="img-trans-auth">             
-                                    <img src={this.state.auth} alt="" className="img-auth"/>  
-                                    <figcaption className="fig-img-1">
-                                    <button className="mark marker-1" onClick={this.clickImgBack}>>
-                                    </button><button className="mark marker-2" onClick={this.clickImgForward}>></button>
-                                </figcaption></div>
-                                </figure>           
-                        </div> */}
-                        <ImageGallery items={images}/>
+                    <div>
+                        <ImageGallery items={images} showPlayButton={false}/></div>
                         <div className="about-auth-div">
                             <h1 className="abt-auth-h1">Lorem Ipsum</h1>
                             <p className="abt-auth-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris cursus commodo gravida. 

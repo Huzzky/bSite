@@ -1,6 +1,4 @@
-/* @import "node_modules/react-image-gallery/styles/scss/image-gallery.scss";
-@import "node_modules/react-image-gallery/styles/css/image-gallery.css"; */
-
+@import "~react-image-gallery/styles/css/image-gallery.css";
 
 .boa-all {
     background-color: white;
@@ -13,6 +11,7 @@
     font-size: 2.35em;
     padding-bottom: 1em;
 }
+
 .img-and-abt{
     display: flex;
 }
