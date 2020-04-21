@@ -42,7 +42,6 @@ const images = [
 
 
 class BOA extends React.Component {
-
     render () {
         
         return (
@@ -50,7 +49,7 @@ class BOA extends React.Component {
                 <div className="div-all-2">
                     <h1 className="h1-boa">Sic parvis magna</h1>
                     <div className="img-and-abt">   
-                    <div>
+                    <div className="slider-div">
                         <ImageGallery items={images} showPlayButton={false}/></div>
                         <div className="about-auth-div">
                             <h1 className="abt-auth-h1">Lorem Ipsum</h1>

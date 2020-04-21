@@ -2,16 +2,19 @@
 
 .boa-all {
     background-color: white;
-    padding-top: 5em;
+    padding-top: 7.5em;
     text-align: center;}
 
 .h1-boa {
     font-weight: 300;
     background-color: white;
     font-size: 2.35em;
-    padding-bottom: 1em;
+    padding-bottom: 2.2em;
 }
-
+.slider-div {
+    padding-left: 190px;
+    padding-right: 125px;
+}
 .img-and-abt{
     display: flex;
 }
