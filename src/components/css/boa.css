@@ -3,7 +3,8 @@
 .boa-all {
     background-color: white;
     padding-top: 7.5em;
-    text-align: center;}
+    text-align: center;
+    padding-bottom: 7em;}
 
 .h1-boa {
     font-weight: 300;
@@ -91,7 +92,9 @@
 
 .abt-auth-h1 {
     font-size: 3em;
+    font-weight: 500;
 }
 .abt-auth-p{
+    font-weight: 400;
     font-size: 1.45em;
 }

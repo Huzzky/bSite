@@ -15,28 +15,23 @@ const images = [
     {
       original: auth1,
       thumbnail:auth1,
-      showPlayButton: false,
     },
     {
       original: auth2,
       thumbnail:auth2,
-      showPlayButton: false
     },
     {
       original: auth3,
       thumbnail:auth3,
-      showPlayButton: false
       
     },
     {
         original: auth4,
         thumbnail:auth4,
-        showPlayButton: false
       },
       {
         original: auth5,
         thumbnail:auth5,
-        showPlayButton: false
       },
   ];
 
