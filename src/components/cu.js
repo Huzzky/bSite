@@ -11,6 +11,8 @@ class ContactUS extends React.Component {
                             <input type="text" className="i-txt"/>
                             <input type="text" className="i-txt"/>
                         </div>
+                        <div><input type="text"/></div>
+                        <div><input type="text"/></div>
                     </form>
                 </div>
             </div>
