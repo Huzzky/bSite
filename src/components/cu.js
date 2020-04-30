@@ -13,7 +13,7 @@ class ContactUS extends React.Component {
                             <input type="text" className="i-txt"/>
                         </div>
                         <div className='div-input'><input type="text" className="input-txt"/></div>
-                        <div className="div-input"><input type="text"/></div>
+                        <div className="div-input"><input type="text" className="input-txt"/></div>
                         </div>
                     </form>
                 </div>
