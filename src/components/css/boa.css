@@ -4,7 +4,11 @@
     background-color: white;
     padding-top: 7.5em;
     text-align: center;
-    padding-bottom: 7em;}
+    padding-bottom: 7em;
+    -webkit-box-shadow: inset 0px -43px 23px -58px rgba(0,0,0,0.5);
+    -moz-box-shadow: inset 0px -43px 23px -58px rgba(0,0,0,0.5);
+    box-shadow: inset 0px -43px 23px -58px rgba(0,0,0,0.5);
+}
 
 .h1-boa {
     font-weight: 300;
