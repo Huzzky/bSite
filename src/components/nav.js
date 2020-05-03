@@ -1,6 +1,6 @@
 import React from 'react';
 import './css/nav.css';
-import videohead from './videos/video.webm';
+import videohead from './videos/video-fon.mp4';
 
 class NAV extends React.Component {
     constructor (props) {

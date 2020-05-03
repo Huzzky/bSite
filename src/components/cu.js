@@ -1,15 +1,15 @@
 import React from 'react';
 import './css/cu.css';
-import fonCU from './images/fon-contact.jpg';
+import fonCU from './images/fon-contactus.webp';
 
 class ContactUS extends React.Component {
     render() {
         return (
-            <div className="all-cu"
-            style={{backgroundImage: 'url(' + fonCU + ')'}}
-            >
+            <div className="all-cu" style={{backgroundImage: 'url(' + fonCU + ')'}}>
                 <div className="fon-cu">
-                    <h1 className="txt-cu">Contact Us</h1>
+                    <div className="h1-cu-txt">
+                        <h1 className="txt-cu">Contact Us</h1>
+                    </div>
                     <form action="post" className="fm-cu">
                         <div className="form-div">
                             <div className="n-e-div">

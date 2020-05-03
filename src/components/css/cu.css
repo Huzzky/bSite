@@ -1,5 +1,22 @@
 .all-cu {
-    margin-top: -1.5em;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: absolute fixed;
+    will-change: transform;
+}
+.h1-cu-txt {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 1.25em;
+    padding-bottom: 1.25em;
+}
+.txt-cu {
+    color:white;
+    font-weight: 400;
+    font-size: 42px;
 }
 
 .form-div {
@@ -11,10 +28,31 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    flex-wrap: nowrap;
+}
+.i-txt-name {
+    width: 30em;
+    height: 2.5em;
+    margin-right: 0.5em;
+    text-align: left;
+}
+.i-txt-phone {
+    width: 30em;
+    height: 2.5em;
+    margin-left: 0.5em;
+}
+.input-txt-email {
+    width: 61.25em;
+    height: 2.5em;
+}
+.input-txt-message {
+    width: 61.25em;
+    height: 2.5em;
 }
 
 .div-input {
     display: flex;
     width: 100%;
     justify-content: center;
+    margin-top: 1.25em;
 }
