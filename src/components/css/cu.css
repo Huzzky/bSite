@@ -11,6 +11,7 @@
     align-content: center;
     padding-top: 2em;
     padding-bottom: 2em;
+    text-shadow: 1px 1px 1px white;
 }
 .txt-cu {
     color:white;
@@ -30,24 +31,55 @@
     flex-wrap: nowrap;
 }
 .i-txt-name {
-    margin-right: 0.5em;
+    margin-right: 0.4em;
     text-align: left;
-    font-size: 31px;
-    width: 12.55em;
+    font-size: 22px;
+    width: 18em;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid white;
+    border-radius: 0.5em;
+    border-color: white;
+    outline: none;
+    padding-left: 0.4em;
+    color: #312824;
+    height: 2em;
 }
 .i-txt-phone {
-    margin-left: 0.5em;
-    font-size: 31px;
-    width: 12.55em;
+    margin-left: 0.4em;
+    color: #312824;
+    font-size: 22px;
+    width: 18em;
+    height: 2em;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid white;
+    border-radius: 0.5em;
+    border-color: white;
+    outline: none;
+    padding-left: 0.4em;
 }
 .input-txt-email {
-    font-size: 31px;
-    width: 26.3em;
+    font-size: 22px;
+    width: 37.5em;
+    color: #312824;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid white;
+    border-radius: 0.5em;
+    border-color: white;
+    padding-left: 0.4em;
+    outline: none;
+    height: 2em;
 }
 .input-txt-message {
-    width: 32.75em;
-    font-size: 25px;
-    /* padding-bottom: 5em; */
+    font-size: 22px;
+    width: 37.5em;
+    border-radius: 0.5em;
+    color: #312824;
+    padding-left: 10px;
+    outline: none;
+    
 }
 
 .div-input {
