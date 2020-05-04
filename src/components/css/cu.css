@@ -1,9 +1,8 @@
 .all-cu {
-    background-size: cover;
-    background-position: center center;
+    background-size: 100% auto;
     background-repeat: no-repeat;
-    position: absolute fixed;
-    will-change: transform;
+    background-attachment: fixed;
+    /* will-change: transform; */
 }
 .h1-cu-txt {
     width: 100%;

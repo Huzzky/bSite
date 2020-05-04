@@ -1,6 +1,6 @@
 import React from 'react';
 import './css/cu.css';
-import fonCU from './images/fon-contactus.webp';
+import fonCU from './images/fon-contactus.jpg';
 
 class ContactUS extends React.Component {
     render() {
