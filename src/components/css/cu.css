@@ -88,6 +88,17 @@
     justify-content: center;
     margin-top: 2em;
 }
-.div-input:last-child{
-    margin-bottom: 5em;
+
+
+.send-form-cu {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-size: 32px;
+    background-color: white;
+    color: #312824;
+    border-color: white;
+    border: 1px solid white;
+    border-radius: 0.5em;
+    padding: 0.5em 4em;
+    letter-spacing: 0.1em;
 }
