@@ -14,7 +14,7 @@
 }
 .txt-cu {
     color:white;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 42px;
 }
 
@@ -30,23 +30,24 @@
     flex-wrap: nowrap;
 }
 .i-txt-name {
-    width: 30em;
-    height: 2.5em;
     margin-right: 0.5em;
     text-align: left;
+    font-size: 31px;
+    width: 12.55em;
 }
 .i-txt-phone {
-    width: 30em;
-    height: 2.5em;
     margin-left: 0.5em;
+    font-size: 31px;
+    width: 12.55em;
 }
 .input-txt-email {
-    width: 61.25em;
-    height: 2.5em;
+    font-size: 31px;
+    width: 26.3em;
 }
 .input-txt-message {
-    width: 61.25em;
-    height: 2.5em;
+    width: 32.75em;
+    font-size: 25px;
+    /* padding-bottom: 5em; */
 }
 
 .div-input {

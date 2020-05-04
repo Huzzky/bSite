@@ -1,9 +1,9 @@
 import React from 'react';
 import './css/about.css';
-import fimageabout from './images/1-image-about.jpg';
-import simageabout from './images/2-image-about.jpg';
-import timageabout from './images/3-image-about.jpg';
-import foimageabout from './images/4-image-about.png';
+import fimageabout from './images/1-image-about.jpeg';
+import simageabout from './images/2-image-about.jpeg';
+import timageabout from './images/3-image-about.jpeg';
+import foimageabout from './images/4-image-about.jpeg';
 
 class About extends React.Component {
     render () {

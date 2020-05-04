@@ -19,7 +19,7 @@ class ContactUS extends React.Component {
                                 </div>
                             </div>
                             <div className='div-input'><input type="text" className="input-txt-email"/></div>
-                            <div className="div-input"><input type="text" className="input-txt-message"/></div>
+                            <div className="div-input"><textarea name="" id="" cols="15" rows="5" className="input-txt-message"></textarea></div>
                         </div>
                     </form>
                 </div>
