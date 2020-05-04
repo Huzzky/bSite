@@ -79,6 +79,7 @@
     padding-bottom: 1%;
     transition: .3s ease-in-out;
     background-color: #312824;
+    border-radius: 0.5em;
     border: none;
     color: #fff;
     font-size: 18px;

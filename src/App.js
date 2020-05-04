@@ -4,6 +4,7 @@ import NAV from './components/nav';
 import About from './components/about';
 import BOA from './components/boa';
 import ContactUS from './components/cu';
+import OC from './components/othercontact';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <About/>
       <BOA/>
       <ContactUS/>
+      <OC/>
     </div>
   );
 }
