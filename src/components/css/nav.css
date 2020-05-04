@@ -21,7 +21,7 @@
     position: fixed;
     width: 100%;
     margin-top: -1%;
-    background-color: rgba(54,82,103);
+    background-color: #9E9A91;
     transition: .2s ease-in-out;
 }
 .ul-li {
@@ -74,7 +74,7 @@
     padding-top: 1%;
     padding-bottom: 1%;
     transition: .3s ease-in-out;
-    background-color: rgba(54,82,103);
+    background-color: #9E9A91;
     border: none;
     color: white;
     font-size: 18px;
