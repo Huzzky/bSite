@@ -9,6 +9,7 @@
     text-align: center;
     position: sticky;
     z-index: 10;
+
 }
 
 .dop-div {
@@ -61,6 +62,7 @@
     font-size: 72px;
     font-weight: 300;
     width: 57%;
+    text-shadow: 0px 0px 5px #FFEBAF;
 }
 .p-header {
     color:white;
@@ -68,6 +70,7 @@
     font-size: 18px;
     margin-top: -1.8%;
     margin-bottom: 2.5%;
+    text-shadow: 0px 0px 5px #FFEBAF;
 }
 .btn-header {
     padding-left: 2.2%;
@@ -77,11 +80,12 @@
     transition: .3s ease-in-out;
     background-color: #312824;
     border: none;
-    color: white;
+    color: #fff;
     font-size: 18px;
     -webkit-box-shadow: 0px 0px 66px -33px rgba(0,0,0,0.52);
     -moz-box-shadow: 0px 0px 66px -33px rgba(0,0,0,0.52);
     box-shadow: 0px 0px 66px -33px rgba(0,0,0,0.52);
+    text-shadow: 0px 0px 0px #FFEBAF;
 }
 .btn-header:hover {
     transition: .3s ease-in-out;
