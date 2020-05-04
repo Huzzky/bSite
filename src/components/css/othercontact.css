@@ -1,0 +1,29 @@
+.all-oc {
+    background-color: white;
+}
+.dop-div-oc {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding-left: 190px;
+    padding-right: 150px;
+}
+
+.first-table {
+    width: 33%;
+}
+.second-table {
+    width: 33%;
+}
+.third-table{
+    width: 33%;
+}
+
+.mini-about-us-oc {
+    width: 35%;
+}
+.icon-about-oc {
+    display: inline-block;
+    list-style: none;
+}
