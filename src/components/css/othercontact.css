@@ -5,9 +5,9 @@
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     padding-left: 190px;
-    padding-right: 150px;
+    padding-right: 230px;
 }
 
 .first-table {
@@ -18,6 +18,12 @@
 }
 .third-table{
     width: 33%;
+    
+}
+.div-oc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .mini-about-us-oc {
