@@ -5,30 +5,19 @@
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    /* justify-content: space-between; */
     padding-left: 190px;
     padding-right: 230px;
 }
 
 .first-table {
-    width: 33%;
-}
-.second-table {
-    width: 33%;
-}
-.third-table{
-    width: 33%;
+    padding-right: 35%;
     
 }
-.div-oc{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.second-table {
+    padding-right: 30%;
+
 }
 
-.mini-about-us-oc {
-    width: 35%;
-}
 .icon-about-oc {
     display: inline-block;
     list-style: none;
